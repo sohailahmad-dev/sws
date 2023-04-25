@@ -106,7 +106,7 @@ function Applynowcontact() {
     {/* <!-- Submit button --> */}
     <div class="row">
       <div class="col">
-        <Link to='/Linkpadr'>
+        <Link to='/apadr'>
         <button type="button" class="btn btn-primary mb-4">Back</button>
         </Link>
       </div>

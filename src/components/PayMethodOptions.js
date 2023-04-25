@@ -2,6 +2,7 @@ import React from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import { Link } from "react-router-dom";
+
 function PayMethodOptions() {
   return (
     <>
@@ -44,35 +45,33 @@ function PayMethodOptions() {
 
 
 <div className="d-inline ">
-  <a className="btn btn-primary" href="/carddet">
+  <Link className="btn btn-primary" to="/carddet">
     <img src="https://img.icons8.com/color/344/bank-card-back-side.png" height="96px" width="96px" alt="" />
     <p>Debit/Credit Card</p>
-  </a>
+  </Link>
 </div>
 
 <div className="d-inline mx-5">
-  <a className="btn btn-primary" href="/mobpay">
+  <Link className="btn btn-primary" to="/mobpay">
     <img src="https://startuppakistan.com.pk/wp-content/uploads/2022/01/word-image-135.jpeg" height="96px" width="96px" alt="" />
     <p>EasyPaisa/JazzCash</p>
-  </a>
+  </Link>
 </div>
 
 <div className="d-inline ">
-  <a className="btn btn-primary" href="/cashbyhand" >
+  <Link className="btn btn-primary" to="/cashbyhand" >
     <img src="https://img.icons8.com/color/344/cash-in-hand.png" height="96px" width="96px" alt="" />
     <p>Cash Handover</p>
-  </a>
+  </Link>
 </div>
 
 </div>
 
-<div className="my-3 ">
-  <a href='home'>
-  <button type="button" className="btn btn-primary btn-lg  btn-rounded mx-4">
-      <i className=" fst-normal ">Back</i>
-    </button> 
-    </a> 
-  </div>
+<div class="col">
+        <Link to = '/'>
+        <button class="btn btn-primary mb-4">Back</button>
+        </Link>
+      </div>
 
 </div>
 </section>

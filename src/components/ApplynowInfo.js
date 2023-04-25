@@ -1,7 +1,8 @@
 import React from 'react'
 import Footer from './Footer'
-
+import {Link} from 'react-router-dom';
 import Navbar from './Navbar'
+
 function ApplynowInfo() {
   return (
     <>
@@ -210,10 +211,10 @@ function ApplynowInfo() {
     {/* <!-- Submit button --> */}
     <div className="row">
       <div className="col">
-       <a href='/apprules'> <button type="button" className="btn btn-primary mb-4">Back</button>
-       </a> </div>
+       <Link to='/apprules'> <button type="button" className="btn btn-primary mb-4">Back</button>
+       </Link> </div>
       <div className="col">
-       <a href="/apadr"> <button type="button" className="btn btn-primary mb-4" style={{marginLeft:"75%"}}>Next</button></a>
+       <Link to="/apadr"> <button type="button" className="btn btn-primary mb-4" style={{marginLeft:"75%"}}>Next</button></Link>
       </div>
     </div>
   </form>

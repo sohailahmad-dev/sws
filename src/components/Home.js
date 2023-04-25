@@ -180,7 +180,7 @@ export default function Home() {
             </div>
 
             <div className="py-4 text-center">
-              <div onClick={() => navigate("/allevent")} role="button" className="btn btn-primary btn-lg m-2"
+              <div onClick={() => navigate("/allproject")} role="button" className="btn btn-primary btn-lg m-2"
                 rel="nofollow">
                 See All Projects
               </div>
@@ -309,7 +309,7 @@ export default function Home() {
             </div>
 
             <div className="py-4 text-center">
-              <div onClick={() => navigate("allproj")} role="button" className="btn btn-primary btn-lg m-2"
+              <div onClick={() => navigate("allevent")} role="button" className="btn btn-primary btn-lg m-2"
                 rel="nofollow">
                 See All Events
               </div>

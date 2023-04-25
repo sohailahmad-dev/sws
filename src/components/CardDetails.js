@@ -91,7 +91,7 @@ export default function CardDetails() {
                 </div>
               </div>
               <div style={{ position: "absolute", marginTop: "20.5%", marginLeft: "12%", borderRadius: "100%"}}>
-                <Link to='home'>
+                <Link to='/paymethodoption'>
                 <button type="button" class="btn btn-primary btn-lg" >
                     Back
                   </button>
@@ -101,7 +101,7 @@ export default function CardDetails() {
               <div style={{ position: "absolute", marginTop: "20.5%", marginLeft: "25.5%"}}>
              
                 <Link to ="/confirmcard" class="btn btn-primary btn-lg">
-                    <i class=" fst-normal ">Confirm</i>
+                    Confirm
                   </Link>
                   
                 </div>

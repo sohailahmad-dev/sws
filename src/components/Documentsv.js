@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
+import {Link} from 'react-router-dom';
+
 function Documentsv() {
   return (
     <div>
@@ -144,23 +146,11 @@ function Documentsv() {
 
               
 
-                <a href="/ques">
-
-                  {" "}
-
-                  <button
-
-                    type="button"
-
-                    className="btn btn-primary btn-lg ms-2"
-
-                  >
-
+                <Link to="/ques">
+                  <button type="button" className="btn btn-primary btn-lg ms-2">
                     Save & Next
-
                   </button>
-
-                </a>{" "}
+                </Link>
 
               </div>
 

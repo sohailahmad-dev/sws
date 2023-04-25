@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from './Navbar'
+import {Link} from 'react-router-dom';
 
 export default function SignInSignUpPage() {
   return (
@@ -60,17 +61,14 @@ export default function SignInSignUpPage() {
 
             <div className="col-md-6 d-flex justify-content-center">
           
-              <a href="/rest">Forgot password?</a>
+              <Link to="/changepass">Forgot password?</Link>
             </div>
           </div>
-<a href='/dash1'>
+<Link to='/dash1'>
        
           <button type="button" className="btn btn-primary btn-block mb-4">Sign in</button>
 
-          </a>
-          <div className="text-center">
-            <p>Not a member? <a href="#!">Register</a></p>
-          </div>
+          </Link>
         </form>
       </div>
       <div className="tab-pane fade" id="pills-register" role="tabpanel" aria-labelledby="tab-register">

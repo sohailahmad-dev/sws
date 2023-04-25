@@ -10,7 +10,7 @@ export default function AllEventPage() {
     
         <div style={{width:"80%", margin:"auto"}}>
         <section className="text-center" style={{marginTop: "10%"}}>
-            <h2 className="mb-5"><strong>Latest Events</strong></h2>
+            <h2  className="mb-5 aboutHeading"><strong>Latest Events</strong></h2>
 
             <div className="row">
             <div className="col-lg-4 col-md-12 mb-4">

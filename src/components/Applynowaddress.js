@@ -1,6 +1,7 @@
 import React from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
+import {Link} from 'react-router-dom';
 
 function Applynowaddress() {
   return (
@@ -147,12 +148,12 @@ function Applynowaddress() {
     {/* <!-- Submit button --> */}
     <div className="row">
       <div className="col">
-        <a href='/appinfo'>
+        <Link to='/appinfo'>
         <button type="button" className="btn btn-primary mb-4">Back</button>
-        </a></div>
+        </Link></div>
       <div className="col">
-       <a href='/apcont'> <button type="button" className="btn btn-primary mb-4" style={{marginLeft:"75%"}}>Next</button>
-       </a>
+       <Link to='/apcont'> <button type="button" className="btn btn-primary mb-4" style={{marginLeft:"75%"}}>Next</button>
+       </Link>
       </div>
     </div>
     

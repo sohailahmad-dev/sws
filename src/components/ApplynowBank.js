@@ -159,10 +159,13 @@ function ApplynowBank() {
 
       <p className="text-muted text-center"><i>The provided account must be registered to your CNIC</i></p>
     {/* <!-- Submit button --> */}
-    <div className="row">
-      <div className="col">
-        <button type="submit" className="btn btn-primary mb-4">Back</button>
+    <div class="row">
+      <div class="col">
+        <Link to="/apdoc">
+        <button type="button" class="btn btn-primary mb-4">Back</button>
+        </Link>
       </div>
+
       <div className="col">
        
         <Link to="/confirmcard"  className="btn btn-primary mb-4"

@@ -75,7 +75,6 @@ export default function AppRouter() {
                 <Route path="/confirmcard" element={<Confirmation />} />
                 <Route path="/cardDetails" element={<CardDetail />} />
                 <Route path="/casedoc" element={<Casedoc />} />
-                <Route path="/allevents" element={<AllEvent />} />
                 <Route path="/vol" element={<Documentvol />} />
                 <Route path="/changepass" element={<ChangePassword />} />
                 <Route path="/contactus" element={<ContactPage />} />
@@ -96,7 +95,7 @@ export default function AppRouter() {
 
 
                 <Route path="/about" element={<AboutPage />} />
-                <Route path="/allproj" element={<AllEventPage />} />
+                <Route path="/allproject" element={<AllEventPage />} />
                 <Route path="/allevent" element={<AllProjectPage />} />
                 <Route path="/appinfo" element={<ApplynowInfo />} />
                 <Route path="/cashbyhand" element={<CashByHand />} />

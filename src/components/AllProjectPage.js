@@ -2,13 +2,13 @@ import React from 'react'
 import Navbar from './Navbar'
 import Footer from'./Footer';
 import { Link } from "react-router-dom";
-;export default function AllEventPage() {
+;export default function AllProjectPage() {
   return (
     <>
     <Navbar/>
     <div style={{width:"80%", margin:"auto"}}>
         <section className="text-center " style={{marginTop: "10%"}}>
-            <h2 className="mb-5"><strong>Latest Projects</strong></h2>
+            <h2 className="mb-5 aboutHeading"><strong>Latest Projects</strong></h2>
 
             <div className="row">
             <div className="col-lg-4 col-md-12 mb-4">
@@ -152,3 +152,5 @@ import { Link } from "react-router-dom";
     </>
   )
 }
+
+

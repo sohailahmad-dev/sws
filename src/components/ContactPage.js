@@ -2,28 +2,30 @@ import React from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
 import { Link } from "react-router-dom";
+import { Grid } from '@mui/material';
 export default function ContactPage() {
   return (
     <>
     <Navbar/>
     <div style={{width:"80%", margin:"auto"}}>
-    <section>
+    <div>
+
             <h1 style={{marginTop: "10%", textAlign: "center", color: "#0C56D0"}}>Contact Information</h1>
-            <div className="container col-md-12 mb-4" style={{height: "200px", marginTop: "7%", position: "relative"}}>
-                <div className="shadow-4-strong" style={{border: "3px solid #0C56D0", width:"200px", 
-                        height: "200px", position: "absolute", textAlign: "center"}}>
+        
+            <Grid lg={4} md={4} sm={4} xm={8} xs={8} container style={{marginTop: "7%"}}>
+                <Grid lg={4} md={4} sm={4} xm={8} xs={8} style={{border: "3px solid #0C56D0", width:"100px", textAlign: "center"}}>
+                    <h1 style={{lineHeight: "160px", color: "#0C56D0"}}>Address</h1>    
+                </Grid>
+
+                <Grid lg={4} md={4} sm={4} xm={8} xs={8} style={{marginLeft:"25%" , border: "3px solid #0C56D0", width:"100px", textAlign: "center"}}>
                     <h1 style={{lineHeight: "160px", color: "#0C56D0"}}>Address</h1>
-                </div>
-                <div className="shadow-4-strong" style={{border: "3px solid #0C56D0", width:"200px", 
-                        height: "200px", position: "absolute", marginLeft:"40%", textAlign: "center"}}>
-                    <h1 style={{lineHeight: "160px", color: "#0C56D0"}}>Phone No</h1>
-                </div>
-                <div className="shadow-4-strong" style={{border: "3px solid #0C56D0", width:"200px", 
-                        height: "200px", position: "absolute", marginLeft:"80%", textAlign: "center"}}>
-                    <h1 style={{lineHeight: "160px", color: "#0C56D0"}}>Email</h1>
-                </div>
-            </div>
-            <div className="container shadow-4-strong"
+                </Grid>
+        
+                <Grid lg={4} md={4} sm={4} xm={8} xs={8} style={{border: "3px solid #0C56D0", width:"100px", textAlign: "center"}}>
+                    <h1 style={{lineHeight: "160px", color: "#0C56D0"}}>Address</h1>
+                </Grid>
+            </Grid>    
+                <div className="container shadow-4-strong"
                 style={{width: "450px", height: "500px", marginTop: "10%",marginBottom:"10%",  borderRadius: "10px", border: "1px solid grey", width:"60%"}}>
                 <h2 style={{textAlign: "center", marginTop: "5%"}}>Contact Us</h2>
                 <form style={{marginTop: "10%"}}>
@@ -56,7 +58,7 @@ export default function ContactPage() {
                     <button type="submit" className="btn btn-primary btn-block mb-4">Send</button>
                 </form>
             </div>
-    </section>
+    </div>
    
     </div>
     <Footer/>

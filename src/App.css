@@ -5,3 +5,27 @@
 .Pointer{
   cursor: pointer;
 }
+
+.aboutHeading{
+  margin-top: 10%;
+}
+
+
+@media screen and (max-width:500px) {
+  .aboutHeading{
+    margin-top: 25%;
+  }
+}
+
+
+.VAppImg{
+  margin-top: 0%;
+}
+
+
+@media screen and (max-width:500px) {
+  
+.VAppImg{
+  margin-top: 350%;
+}
+}
